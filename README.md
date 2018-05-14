@@ -39,6 +39,9 @@ La route doit **valider** que le parametre `rayonnement` est
 
 *Pour chaque type d'erreur de validation, retournez un message de validation approprie si la validation echoue*
 
+* Pour la valeur du Goumin, il faut l'arrondir au nombre entier superieur si le premier decimal est superieur a 5, sinon au nombre entier lui meme si elle est inferieure.
+Example: 456.5569696 devient 457 mais 454.213232 devient 454.
+
 * Tester et verifier que la route marche localement mais aussi qu'elle peut etre accedee par des applications venant de different domaines. Par example si votre api sera deployee sur www.goumin.com, l'equipe front end de l'application www.gouminator.com doit toujours pouvoir effectuer l'appel vers `/goumin` pour retourner le resultat.
 
 
