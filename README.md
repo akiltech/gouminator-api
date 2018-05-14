@@ -36,7 +36,8 @@ La route doit **valider** que le parametre `rayonnement` est
 1. Fourni 
 2. Est un nombre
 3. Est moins ou egal a 100
-Pour chaque type d'erreur de validation, retournez un message de validation approprie si la validation echoue
+
+*Pour chaque type d'erreur de validation, retournez un message de validation approprie si la validation echoue*
 
 * Tester et verifier que la route marche localement mais aussi qu'elle peut etre accedee par des applications venant de different domaines. Par example si votre api sera deployee sur www.goumin.com, l'equipe front end de l'application www.gouminator.com doit toujours pouvoir effectuer l'appel vers `/goumin` pour retourner le resultat.
 
