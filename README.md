@@ -24,7 +24,7 @@ Nous voulons creer un service REST qui prend comme parameter le niveau de rayonn
 
 * Mettez en place votre framework de choix pour la creation d'une architecture REST(Custom/Symfony/Laravel/ExpressJS)
 * Votre API devrait etre accessible sur le port `4001` `http://localhost:4001`
-* Creez une route GET `/goumin/:rayonnement` ex `/goumin/5` qui prend un parametre `rayonnement`. Le parametre peut aussi etre envoye en query string ex: `/volume?rayonnement=5`). La route retourne le resultat dans le format JSON suivant:
+* Creez une route GET `/goumin/:rayonnement` ex `/goumin/5` qui prend un parametre `rayonnement`. Le parametre peut aussi etre envoye en query string ex: `/goumin?rayonnement=5`). La route retourne le resultat dans le format JSON suivant:
 
 ```
 {
