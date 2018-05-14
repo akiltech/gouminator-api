@@ -49,7 +49,10 @@ Example: 456.5569696 devient 457 mais 454.213232 devient 454.
 
 * Ajoutez au moins un test unitaire pour cette route et assurez vous que le(s) test(s) passe.
 
-* Ajoutez une nouvelle route POST `/goumins` qui prend une list de rayonnements et retourne une liste de volumes pour chacun des rayonnements dans la liste initiale.
+* Ajoutez une nouvelle route POST `/goumins` qui prend une liste de rayonnements en POST DATA et retourne une liste de goumins pour chacun des rayonnements dans la liste initiale. La logique doit marcher de la meme maniere que la route individuelle. Si la valeur du goumin pour le rayonnement existe dans la base de donnee, elle est retournee, sinon elle est calculee, sauvegardee et retournee vers la liste.
+
+Example: 
+
 Format du POST 
 ```
 [5,10,3,22]
