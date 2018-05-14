@@ -49,7 +49,7 @@ La route doit **valider** que le parametre `rayonnement` est
 * Ajoutez une nouvelle route POST `/goumins` qui prend une list de rayonnements et retourne une liste de volumes pour chacun des rayonnements dans la liste initiale.
 Format du POST 
 ```
-[5,10, 30]
+[5,10,3,22]
 ```
 
 Format du JSON retourne:
@@ -57,12 +57,12 @@ Format du JSON retourne:
 ```
 [
     {
-        radius: 5,
-        volume: 200
+        rayonnement: 5,
+        goumin: 200
     },
     {
-        radius: 2,
-        volume: 100
+        rayonnement: 10,
+        goumin: 100
     }
     ...
 ]
