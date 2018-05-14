@@ -10,7 +10,7 @@ Cette formule represente en fait le calcul du volume d'une sphere en fonction du
 
 # Dependencies:
 
-Les dependences dependent de votre choix de framework
+Les dependences sont en relation a votre choix de framework
 
 # Installation
 
